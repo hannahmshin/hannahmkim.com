@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Hannah M Kim</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+	<div class="navbar">
+		<div class="navbar-background"></div>
+		<h1><a href="..">HMK</a></h1>
+		<div class="menu-button">
+			<div class="menu-icon"></div>
+		</div>
+		<div class="menu">
+			<div class="menu-background"></div>
+			<ul>
+				<li id="About"><a href="#about">About</a></li>
+				<li id="Experience"><a href="#experience">Experience</a></li>
+				<li id="Work"><a href="#work">Work</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="about" id="about">
+		<div class="about-section">
+			<h1>Hannah Minjee Kim</h1>
+			<h2>full stack engineer</h2>
+			<div class="about-buttons">
+				<button class="js-about-button about-button-selected" value="aboutme">
+					About
+				</button>
+				<button class="js-about-button" value="skills">
+					Skills
+				</button>
+				<button value="resume" onClick="window.open('resume.pdf');">
+					Résumé
+				</button>
+			</div>
+		</div>
+		<div class="about-section">
+			<div class="js-about-content about-content">
+				<h3>Hi! I'm a fifth-year undergraduate student at the University of Michigan studying Computer Science. Whether it is through <b>designing beautiful, intuitive front-end user interfaces</b>, or <b>implementing elegant solutions to complex back-end problems</b>, I hope that my work can enhance the lives of those around me and <b>make the world a better place.</b></h3>
+			</div>
+			<div class="js-about-content about-content hidden">
+				<ul>
+					<li>HTML5</li>
+					<li>CSS3/Sass</li>
+					<li>JS/JQuery</li>
+					<li>Node.js</li>
+					<li>Flask</li>
+					<li>Django</li>
+					<li>PHP</li>
+					<li>Python</li>
+					<li>C++</li>
+				</ul>
+			</div>
+			<div class="contact">
+				<ul>
+					<li><a id="icon-github" target="_blank" href="https://github.com/minjeeh"></a></li>
+					<li><a id="icon-email" target="_blank" href="mailto:hmkim11@gmail.com"></a></li>
+					<li><a id="icon-linkedin" target="_blank" href="https://www.linkedin.com/in/hannah-kim-155958b4/"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+ 
+	<div class="experience" id="experience">
+		<h1>experience</h1>
+		<ul class="timeline">
+			<li>
+				<div class="timeline-badge"><img class="timeline-icon" id="uofm"></div>
+				<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h1>University of Michigan</h1>
+						<h2>September 2013</h2>
+					</div>
+					<div class="timeline-body">
+						<p>Moved 734 miles from my home in Overland Park, KS to Ann Arbor, MI to <b>start attending the University of Michigan</b>. I soon discovered a passion for <b>computer science</b> in my Intro to Programming class, and the rest is history!</p>
+					</div>
+			 </div>
+			</li>
+			<li class="timeline-right">
+				<div class="timeline-badge"><img class="timeline-icon" id="dl"></i></div>
+			 <div class="timeline-panel">
+				<div class="timeline-heading">
+					<h1>DataLocker Inc</h1>
+					<h2>May - July 2015</h2>
+				</div>
+				<div class="timeline-body">
+					<p>Came back home to Kansas for a <b>summer internship at DataLocker</b>, a top provider of data security and encryption solutions. Learned a ton of new technology, got a glimpse into the corporate world, and helped develop and test their cloud encryption platform, <b>SafeCrypt</b>.</p>
+				</div>
+			 </div>
+			</li>
+			<li>
+				<div class="timeline-badge"><img class="timeline-icon" id="venture"></i></div>
+			 <div class="timeline-panel">
+				<div class="timeline-heading">
+					<h1>Venture</h1>
+					<h2>May - August 2016</h2>
+				</div>
+				<div class="timeline-body">
+					<p>Inspired by a mutual love of travel, a friend and I developed <b>Venture, a web service that allows travelers to connect with local guides</b> for tours worldwide. We spent all summer learning <b>Python, Django, and web design methods</b> to build a fully functioning web application.</p>
+				</div>
+			 </div>
+			</li>
+			<li class="timeline-right">
+				<div class="timeline-badge"><img class="timeline-icon" id="potato"></i></div>
+			 <div class="timeline-panel">
+				<div class="timeline-heading">
+					<h1>Puzzle Potato</h1>
+					<h2>January - April 2017</h2>
+				</div>
+				<div class="timeline-body">
+					<p>My senior design class was filled with professional-sounding mobile applications... and then you had Puzzle Potato. Believing that we could <b>bring people closer together through technology</b>, my team and I used <b>Unity and C#</b> to create a social mobile game, which <b>launched on the Google Play Store</b> at the end of the semester! </p>
+				</div>
+			 </div>
+			</li>
+			<li>
+				<div class="timeline-badge"><img class="timeline-icon" id="rmn"></i></div>
+			 <div class="timeline-panel">
+				<div class="timeline-heading">
+					<h1>RetailMeNot Inc.</h1>
+					<h2>May - August 2017</h2>
+				</div>
+				<div class="timeline-body">
+					<p>Got to complete <b>2 really awesome projects</b> throughout the summer! I gained technical skills like <b>PHP and node.JS,</b> as well as soft skills like <b>public speaking through giving presentations, communication with teammates and superiors, and how to work in a gigantic codebase with hundreds of other engineers.</b> </p>
+				</div>
+			 </div>
+			</li>
+			<li class="timeline-right">
+				<div class="timeline-badge"><img class="timeline-icon" id="grad"></i></div>
+			 <div class="timeline-panel">
+				<div class="timeline-heading">
+					<h1>Graduate</h1>
+					<h2>December 2017</h2>
+				</div>
+				<div class="timeline-body">
+					<p>Hopefully :)</p>
+				</div>
+			 </div>
+			</li>
+		</ul>
+	</div>
+
+	<div class="work" id="work">
+		<h1>work</h1>
+		<h2>Come back later to see some of my work!</h2>
+	</div>
+
+	<div class="footer">
+		<h1>made by Hannah Kim 2017</h1>
+	</div>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
